@@ -1,0 +1,25 @@
+.table-striped>tbody>tr:nth-of-type(odd) {
+    background-color: #D2D2D2;
+}
+.table-bordered>thead>tr>td, .table-bordered>thead>tr>th {
+    border: 1px solid #007F00;
+}
+.table>thead>tr {
+    background-color: #007F00;
+}
+.table>thead>tr>th a {
+    color: #fff;
+}
+
+.tsort > thead > tr > th.sel {
+    background: #007F00 url('../js/tsort/images/up.png') 50% 0 no-repeat;
+}
+.tsort > thead > tr > th.sel.asc {
+    background-image:url('../js/tsort/images/down.png');
+    background-position:50% 100%;
+}
+
+.margin-y {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
